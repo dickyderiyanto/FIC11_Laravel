@@ -53,7 +53,7 @@
 
                                     @enderror
                                 </div>
-                                <div class="form-group">
+                                {{-- <div class="form-group">
                                     <label>Description</label>
                                     <input type="description" class="form-control @error('description')
                                     is-invalid
@@ -64,7 +64,7 @@
                                             {{$message}}
                                         </div>
                                     @enderror
-                                </div>
+                                </div> --}}
                                 <div class="form-group">
                                     <label>Price</label>
                                     <input type="number" class="form-control @error('price')
@@ -106,7 +106,7 @@
                                     </label>
                                     <label class="selectgroup-item">
                                         <input type="radio" name="category" value="snack" class="selectgroup-input"
-                                        @if ($product->category == 'product') checked @endif>
+                                        @if ($product->category == 'snack') checked @endif>
                                         <span class="selectgroup-button">Snack</span>
 
                                     </label>
