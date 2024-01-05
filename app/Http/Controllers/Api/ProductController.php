@@ -18,7 +18,7 @@ class ProductController extends Controller
             'success' => true,
             'message' => 'List Data Product',
             'data' => $product
-        ], 200);
+        ], 200, [], 1);
     }
 
     /**

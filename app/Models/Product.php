@@ -17,4 +17,9 @@ class Product extends Model
         'category',
         'image',
     ];
+
+    protected $casts = [
+        'price' => 'integer',
+        'stock' => 'integer'
+    ];
 }
