@@ -42,7 +42,7 @@ class ProductController extends Controller
             'stock' => (int) $request->stock,
             'category' => $request->category,
             'image' => $filename,
-            'is_favorite' => $request->is_favorite,
+            'is_best_seller' => $request->is_best_seller,
         ]);
 
         if ($product) {
