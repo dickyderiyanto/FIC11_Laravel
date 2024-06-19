@@ -17,10 +17,13 @@ class Product extends Model
         'category',
         'image',
         'is_best_seller',
+        'is_sync',
     ];
 
     protected $casts = [
         'price' => 'integer',
-        'stock' => 'integer'
+        'stock' => 'integer',
+        'is_best_seller' => 'integer',
+        'is_sync' => 'integer'
     ];
 }
